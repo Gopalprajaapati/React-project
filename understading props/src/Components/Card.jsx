@@ -1,11 +1,14 @@
 import React from 'react'
 
-const Card = () => {
+const Card = (props) => {
+
+  console.log(props);
+
   return (
      <div>
           <div className="card">
-        <img src="https://cms.imgworlds.com/assets/9f39cd74-e665-45e5-9c59-b482d5223a01.jpg" alt="" />
-        <h1>Gopal prajapti</h1>
+        <img src={props.img} alt="" />
+        <h1>{props.name}</h1>
         <p>Lorem ipsum dolor 
           sit amet consectetur adipisicing elit. Quos ullam dolor explicabo eius at repudiandae ipsa quia temporibus!</p>
           <button>click</button>
