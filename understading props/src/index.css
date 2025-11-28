@@ -1,0 +1,47 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.parent{
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap :20px;
+}
+.card{
+  width: 300px;
+  border: 1px solid white;
+  text-align: center;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #222;
+}
+.card img{
+  height: 140px;
+  width: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.card p {
+  margin: 20px 0;
+}
+.card button{ 
+  padding: 10px 20px;
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+  border: none ;
+ 
+  
+}
